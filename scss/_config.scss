@@ -1,0 +1,35 @@
+//Text
+$primary-text: #444444;
+$hover-text: #009688;
+$white-text: #ffffff;
+
+
+//Active link
+.active {
+  color: #009688;
+}
+
+//Margin and Padding
+
+$spaceamounts: (1,2,3,4,5);
+
+@each $space in $spaceamounts {
+  //all around margin
+  .allMargin-#{$space} {
+    margin: #{$space}rem;
+  }
+  //vertical margin
+  .yMargin-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  //all around padding
+  .allPadding-#{$space} {
+    padding: #{$space}rem;
+  }
+  //vertical padding
+  .yPadding-#{$space} {
+    padding: #{$space}rem 0;
+  }
+
+}
