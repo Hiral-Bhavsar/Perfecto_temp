@@ -1,4 +1,4 @@
-@media screen and (min-width:320px) {
+@media screen and (max-width:320px) {
   .slider-txt {
     position: absolute;
     top: 12rem;
@@ -18,4 +18,19 @@
       font-size: 0.6rem;
     }
   }
+  //Navbar
+.fixed-menu {
+  a {
+    padding: 0.5rem;
+  }
+}
+
+.serviceMain {
+  display: block;
+
+  .serviceOne {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+}
 }

@@ -1,6 +1,7 @@
 @import 'config';
 @import 'utilities';
-@import 'media';
+
+
 
 * {
   box-sizing: border-box;
@@ -74,4 +75,69 @@ a {
   }
 }
 
+//Intro
+.intro {
+  margin-top: 4rem;
 
+  h3 {
+    font-size: 2.2rem;
+    color: $primary-text;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.8rem;
+
+    span {
+      color: $hover-text;
+    }
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+}
+
+//Services
+.serviceSec {
+  margin-top: 2rem;
+  padding: 3rem 0;
+  text-align: center;
+
+  .serviceMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+
+    .serviceOne {
+      padding: 0 1.5rem;
+
+      i {
+        color: $primary-text;
+        padding: 1rem 0;
+        text-align: center;
+      }
+
+      .serviceTitle {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        font-weight: 700;
+        margin: 0.8rem 0;
+        text-align: center;
+      }
+
+      .serviceDesc {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin: 0.5rem 0;
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+@import 'media';
