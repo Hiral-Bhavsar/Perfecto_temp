@@ -12,11 +12,28 @@
 }
 
 //Buttons
-.btn-main {
+.btn {
+  &-main {
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ffffff;
+    color: $white-text;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  
+    &:hover {
+      color: $white-text;
+      text-decoration: none;
+    }
+}
+
+&-grey {
   padding: 0.6rem;
   margin-right: 0.5rem;
-  border: 1px solid #ffffff;
-  color: $white-text;
+  border: 1px solid #e3e3e3;
+  color: #808080;
   font-size: 1rem;
   background-color: transparent;
   outline: none;
@@ -25,5 +42,7 @@
   &:hover {
     color: $white-text;
     text-decoration: none;
+    background-color: #07877b;
   }
+}
 }

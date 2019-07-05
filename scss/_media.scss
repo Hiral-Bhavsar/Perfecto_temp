@@ -34,3 +34,16 @@
   }
 }
 }
+
+//Portfolio
+.rowImg {
+  .colImg {
+    &:first-child {
+      flex: 100%;
+      max-width: 100%;
+    }
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 0.5rem;
+    }
+  }

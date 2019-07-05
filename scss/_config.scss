@@ -3,7 +3,11 @@ $primary-text: #444444;
 $hover-text: #009688;
 $white-text: #ffffff;
 
-
+.title {
+  font-size: 2rem;
+  color: #444444;
+  font-weight: bold;
+}
 //Active link
 .active {
   color: #009688;

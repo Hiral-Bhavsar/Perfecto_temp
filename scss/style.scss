@@ -32,6 +32,7 @@ ul {
 a {
   text-decoration: none;
   color: #444444;
+  text-align: center;
 }
 
 //Navbar
@@ -134,6 +135,54 @@ a {
         line-height: 1.2rem;
         margin: 0.5rem 0;
         text-align: center;
+      }
+    }
+
+  }
+}
+
+//Portfolio
+.portfolio {
+  text-align: center;
+
+  .projectLinks {
+    text-align: center;
+
+    .linkList {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .active {
+        color: $white-text;
+        text-decoration: none;
+        background-color: #07877b;
+      }
+    }
+  }
+
+  .rowImg {
+    display: flex;
+    flex-wrap: wrap;
+
+    .colImg {
+      &:first-child {
+        flex: 50%;
+        max-width: 50%;
+      }
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 0.5rem;
+
+      img {
+        margin-top: 0.5rem;
+        vertical-align: middle;
+
+        &:hover {
+          background: rgba(0,150,136,0.5);
+          cursor: pointer;
+        }
       }
     }
 
